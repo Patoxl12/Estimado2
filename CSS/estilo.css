@@ -22,7 +22,6 @@ nav{
     grid-column-start: 2;
     grid-column-end: 4;
     text-align: center;
-    color: rgb(255, 255, 255);
 }
 aside{
     font-family: sans-serif;
@@ -37,15 +36,20 @@ html {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.preco{
+   text-align: right;
+}
+
 .submenu{
     position: sticky; 
     top: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 252, 252);
     border-radius: 12px;
 }
 .descricao{
     color: gray;
     font-size: small;
+    margin-right: 50%;
 }
 .container {
     display: flex;
@@ -60,6 +64,7 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -87,7 +92,7 @@ html {
 }
 
 ul{
-    list-style-type: none;
+    /*list-style-type: none;*/
     color:white;
 }
 
@@ -108,7 +113,7 @@ h2{
 }
 h3{
     text-align: center;
-    text-decoration: white;
+    text-decoration-color: white;
 }
 
 a:hover{
