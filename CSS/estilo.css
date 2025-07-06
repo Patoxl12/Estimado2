@@ -140,7 +140,7 @@ a:hover{
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border: solid rgba(73, 26, 15, 0.979) 2px;
+    border: solid rgba(73, 26, 15, 0.979) 1px;
 }
 
 .r_imagem{
