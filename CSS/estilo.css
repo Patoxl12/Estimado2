@@ -143,12 +143,16 @@ a:hover{
     border: solid rgba(73, 26, 15, 0.979) 1px;
 }
 
-.img3{
-    height: 2480px;
-    width:  3508px;
-    border-radius: 50%;
-    border: solid rgba(73, 26, 15, 0.979) 1px;
+.img3 {
+    width: 100%;
+    max-width: 1240px; /* largura proporcional ao A4 (210mm x 297mm) */
+    aspect-ratio: 210 / 297; /* mantém proporção A4 */
+    object-fit: cover; /* ajusta o preenchimento */
+    border: 1px solid rgba(73, 26, 15, 0.979); /* borda personalizada */
+    display: block;
+    margin: 0 auto; /* centraliza a imagem */
 }
+
 
 .r_imagem{
     height: 200px;
