@@ -148,7 +148,7 @@ a:hover{
     max-width: 1240px; /* largura proporcional ao A4 (210mm x 297mm) */
     aspect-ratio: 210 / 297; /* mantém proporção A4 */
     object-fit: cover; /* ajusta o preenchimento */
-    border: 1px solid rgba(73, 26, 15, 0.979); /* borda personalizada */
+    border: 1px solid rgba((0, 0, 0, 0)); /* borda personalizada */
     display: block;
     margin: 0 auto; /* centraliza a imagem */
 }
