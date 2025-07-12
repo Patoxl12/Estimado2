@@ -163,9 +163,9 @@ a:hover{
 }
 
 .img5 {
-    width: 100%;
+     width: 100%;
     max-width: 1080px;          /* largura máxima */
-    aspect-ratio: 1080 / 1000;  /* mantém proporção 1080x1000 */
+    aspect-ratio: 1080 / 1300;  /* mantém proporção 1080x1300 */
     object-fit: cover;
     border: 1px solid rgba(73, 26, 15, 0.979);
     display: block;
