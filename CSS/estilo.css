@@ -158,7 +158,6 @@ a:hover{
     max-width: 1080px;         /* largura máxima */
     aspect-ratio: 9 / 16;       /* mantém a proporção vertical */
     object-fit: cover;          /* ajusta a imagem sem distorcer */
-    border: 1px solid rgba(73, 26, 15, 0.979); /* borda igual à anterior */
     display: block;
     margin: 0 auto;             /* centraliza horizontalmente */
 }
