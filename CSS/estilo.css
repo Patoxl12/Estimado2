@@ -162,6 +162,15 @@ a:hover{
     margin: 0 auto;             /* centraliza horizontalmente */
 }
 
+.img5 {
+    width: 100%;
+    max-width: 1080px;          /* largura máxima */
+    aspect-ratio: 1080 / 1000;  /* mantém proporção 1080x1000 */
+    object-fit: cover;
+    border: 1px solid rgba(73, 26, 15, 0.979);
+    display: block;
+    margin: 0 auto;
+}
 
 .r_imagem{
     height: 200px;
