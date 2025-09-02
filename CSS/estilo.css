@@ -1,5 +1,7 @@
 body{
     margin: 10px;  /*Para deixar a pagina com margens*/
+    background-color: #ffffff;
+    color: #111111;
 }
 
 section{
@@ -23,6 +25,7 @@ nav{
     grid-column-end: 4;
     text-align: center;
 }
+
 aside{
     font-family: sans-serif;
 }
@@ -46,11 +49,13 @@ html {
     background-color: rgb(253, 252, 252);
     border-radius: 12px;
 }
+
 .descricao{
     color: gray;
     font-size: small;
     margin-right: 50%;
 }
+
 .container {
     display: flex;
 }
@@ -60,12 +65,12 @@ html {
     grid-column-end: 6;
     text-align: center;
 }
+
 .divisao{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .menu{
@@ -74,17 +79,14 @@ html {
     justify-content: left;
     gap: 10px;
     overflow-x: auto;
-    
 }
 
 .infos{
     font-size: sans serif;
-
 }
 
 .menu p{
     text-decoration-color: blue;
-
 }
 
 .formacao{
@@ -115,6 +117,7 @@ h2{
     text-align: center;
     text-decoration: underline;
 }
+
 h3{
     text-align: center;
     text-decoration-color: white;
@@ -163,7 +166,7 @@ a:hover{
 }
 
 .img5 {
-     width: 100%;
+    width: 100%;
     max-width: 1080px;          /* largura máxima */
     aspect-ratio: 1080 / 1300;  /* mantém proporção 1080x1300 */
     object-fit: cover;
@@ -176,6 +179,7 @@ a:hover{
     height: 200px;
     width: 500px; 
 }
+
 .imgport{
     border: 1.5px solid gray;
     border-radius: 0.5rem;
@@ -184,10 +188,12 @@ a:hover{
     margin: 10px;
     background-color: azure;
 }
+
 .imgport img {
     width: 80px;
     height: 80px;
 }
+
 .imgR{
     width: 30px;
     height: 30px;
@@ -202,6 +208,55 @@ footer{
     background-color: gray;
 }
 
-@media screen and (max-wight: 1020px) {
-    
+/* Corrigido 'max-wight' para 'max-width' */
+@media screen and (max-width: 1020px) {
+    body {
+        margin: 5px;
+    }
 }
+
+/* ===================== */
+/* 🌙 Tema Escuro Automático */
+/* ===================== */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    section, header, nav, footer, aside, form {
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .submenu {
+        background-color: #1a1a1a;
+        border: 1px solid #333;
+    }
+
+    a:link, a:visited {
+        color: #bb86fc;
+    }
+
+    a:hover {
+        color: #03dac6;
+    }
+
+    h2, h3 {
+        color: #ffffff;
+        text-decoration-color: #bb86fc;
+    }
+
+    .imgport {
+        background-color: #2a2a2a;
+        border: 1.5px solid #444;
+    }
+
+    footer {
+        background-color: #181818;
+        color: #aaa;
+    }
+}
+
+
