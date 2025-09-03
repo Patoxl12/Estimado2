@@ -38,10 +38,10 @@ section {
 }
 
 .card-description {
-    font-size: 14px;
+    font-size: 7px;
     color: #333;
-    margin-bottom: 15px;
-    line-height: 1.3em;
+    margin-bottom: 5px;
+    ccc: 1.3em;
 }
 
 .card-price {
@@ -112,6 +112,7 @@ footer { background-color: gray; text-align: center; }
     .card-title, .card-price { color: #bb86fc; }
     .card-description { color: #ccc; }
 }
+
 
 
 
