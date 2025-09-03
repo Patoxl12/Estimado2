@@ -1,6 +1,6 @@
 body{
     margin: 10px;  /*Para deixar a pagina com margens*/
-    background-color: #ffffff;
+    background-color: #fcefdc; /* tom bege claro do cardápio */
     color: #111111;
 }
 
@@ -26,17 +26,13 @@ nav{
     text-align: center;
 }
 
-aside{
-    font-family: sans-serif;
-}
-
-form{
+aside, form {
     font-family: sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .preco{
@@ -208,10 +204,71 @@ footer{
     background-color: gray;
 }
 
-/* Corrigido 'max-wight' para 'max-width' */
+/* ===================== */
+/* 🎨 Estilo dos Cards (Cardápio) */
+/* ===================== */
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b32d00; /* vermelho queimado parecido com o preço */
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b32d00;
+}
+
+/* ===================== */
+/* 📱 Responsividade */
+/* ===================== */
 @media screen and (max-width: 1020px) {
     body {
         margin: 5px;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        margin-bottom: 15px;
+    }
+
+    .card-content {
+        margin-left: 0;
     }
 }
 
@@ -224,7 +281,7 @@ footer{
         color: #e0e0e0;
     }
 
-    section, header, nav, footer, aside, form {
+    section, header, nav, footer, aside, form, .card {
         background-color: #1e1e1e;
         border-radius: 10px;
         padding: 10px;
@@ -257,6 +314,15 @@ footer{
         background-color: #181818;
         color: #aaa;
     }
+
+    .card-title, .card-price {
+        color: #ff8a65;
+    }
+
+    .card-description {
+        color: #ccc;
+    }
 }
+
 
 
