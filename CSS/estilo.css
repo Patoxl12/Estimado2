@@ -51,8 +51,10 @@ section {
 }
 
 .card-img img {
-    width: 120px;
-    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    border-radius: 12%;
+    border: solid rgba(0, 0, 0, 0.979) 2px;
 }
 
 /* ======== ESTRUTURA ORIGINAL (ajustada) ======== */
@@ -112,6 +114,7 @@ footer { background-color: gray; text-align: center; }
     .card-title, .card-price { color: #bb86fc; }
     .card-description { color: #ccc; }
 }
+
 
 
 
