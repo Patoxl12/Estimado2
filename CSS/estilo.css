@@ -51,7 +51,7 @@ section {
 }
 
 .card-img img {
-    width: 120px;
+    width: 20px;
     border-radius: 8px;
 }
 
@@ -112,5 +112,6 @@ footer { background-color: gray; text-align: center; }
     .card-title, .card-price { color: #bb86fc; }
     .card-description { color: #ccc; }
 }
+
 
 
